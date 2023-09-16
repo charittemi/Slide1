@@ -14,6 +14,6 @@ st.text('Marpスライド')
 
 st.text('')
 
-st.text('')
+st.text('ok')
 st.text('ok')
 
