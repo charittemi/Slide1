@@ -16,7 +16,7 @@ st.text('')
 
 # iframeを埋め込む
 iframe_html = """
-<iframe src="http://localhost:8501/path/to/test.md" width="100%"></iframe>
+<iframe src="http://localhost:8501/path/to/test.md" width="30%"></iframe>
 """
 
 st.components.v1.html(iframe_html)
