@@ -1,12 +1,8 @@
-﻿# Local URL: http://localhost:8501
-# Network URL: http://192.168.0.24:8501
-
-# streamlit >streamlit run main.py
+﻿# streamlit >streamlit run main.py
 
 
 import streamlit as st
 from PIL import Image
-import webbrowser
 
 st.title('タイトル')
 st.caption('これはスライド用に作ったページです')
@@ -18,6 +14,11 @@ image=Image.open('amago.jpg')
 st.image(image, width=250)
 st.text('')
 
-webbrowser.open('index.html')
+# iframeを埋め込む
+iframe_html = """
+<iframe src="http://localhost:8501/path/to/test.md" width="100%" height="500"></iframe>
+"""
+
+st.components.v1.html(iframe_html)
 st.text('okok')
 
