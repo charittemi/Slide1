@@ -13,6 +13,8 @@ st.subheader('About')
 st.text('Marpスライド')
 
 st.text('')
-
+image=Image.open('amago.jpg')
+st.image(image, width=250)
+st.text('')
 st.text('okok')
 
