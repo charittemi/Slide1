@@ -16,5 +16,7 @@ st.text('')
 image=Image.open('amago.jpg')
 st.image(image, width=250)
 st.text('')
+
+<iframe src="http://localhost:8501/path/to/test.md" width="100%" height="500"></iframe>
 st.text('okok')
 
