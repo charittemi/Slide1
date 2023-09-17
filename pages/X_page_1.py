@@ -9,11 +9,10 @@ from PIL import Image
 st.title('Markdownで数式を書く')
 st.caption('')
 
-st.text('文字列の先頭にrをつける(markdown = r)ことで、pythonのraw stringとして扱われる')
+st.text('文字列の先頭にrをつける(markdown = r""")ことで、pythonのraw stringとして扱われる')
 
-st.subheader('Samples')
 st.text('')
-
+st.text('')
 col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
     markdown = r"""
