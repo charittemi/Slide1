@@ -30,7 +30,7 @@ $y = (1 + x) - 4x \div 2$
 
 $x^2$
 
-$\displaystyle\lim_{a \ to 0}f(x + a)$
+$\displaystyle\lim_{a \to 0}f(x + a)$
 
 """
 st.markdown(markdown)
