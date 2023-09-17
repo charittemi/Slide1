@@ -10,7 +10,7 @@ st.text('')
 with open('Slide1.html', 'r', encoding='utf-8') as html_file:
     slide_html = html_file.read()
 
-st.components.v1.html(slide_html, width=800, height=600)
+st.components.v1.html(slide_html, width=720, height=540)
 st.text('')
 st.subheader('コード')
 code='''
@@ -18,6 +18,6 @@ code='''
 with open('Slide1.html', 'r', encoding='utf-8') as html_file:
     slide_html = html_file.read()
 
-st.components.v1.html(slide_html, width=800, height=600)
+st.components.v1.html(slide_html, width=720, height=540)
 '''
 st.code(code,language='python')
