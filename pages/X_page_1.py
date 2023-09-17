@@ -32,10 +32,11 @@ with col1:
 st.text('')
     
 with col2:
-        markdown = r"""
+```
+    markdown = r"""
 
     #### Markdownで数式
-```
+
     $f(x) = x^2 + 1$
 
     $y = (1 + x) - 4x \div 2$
@@ -45,8 +46,9 @@ with col2:
     $\displaystyle\lim_{a \to 0}f(x + a)$
 
     """
-```
     st.markdown(markdown)
+```
+
     st.text('')
 
 
