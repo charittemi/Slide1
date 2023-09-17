@@ -16,7 +16,7 @@ with col1:
     markdown = r"""
 
     ##### 表示結果  
-  
+    <br/>
   
     $f(x) = x^2 + 1$
 
