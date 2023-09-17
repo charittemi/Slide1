@@ -7,7 +7,7 @@ from PIL import Image
 st.title('Markdownで数式を書く')
 st.caption('')
 
-st.write('文字列の先頭にrをつける(markdown = r)ことでraw stringとして扱われ、記号が正しく表示される')
+st.write('文字列の先頭にrをつける(markdown = r)ことでバックスラッシュもraw stringとして扱われ、記号が正しく表示される')
 
 st.text('')
 st.text('')
@@ -15,7 +15,7 @@ col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
     markdown = r"""
 
-    ##### 表示結果
+    ##### 表示結果  
   
   
     $f(x) = x^2 + 1$
