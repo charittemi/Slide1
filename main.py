@@ -8,7 +8,7 @@ st.caption('これはテスト用に作ったページです')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
-image=Image.open('./img/amago.jpg')
+image=Image.open('./imgs/amago.jpg')
 st.image(image, width=250)
 st.text('')
 
