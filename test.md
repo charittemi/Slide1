@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 footer: "スライド作成テスト"
 theme: mytheme
 paginate: true
