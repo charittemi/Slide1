@@ -15,14 +15,11 @@ st.text('')
 
 col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
-    st.text('')
-    
-with col2:
-    st.text('')
+    markdown = r"""
 
-markdown = r"""
+### 数式表示
 
-### 数式表示 
+#### 出力結果
 
 $f(x) = x^2 + 1$
 
@@ -34,4 +31,9 @@ $\displaystyle\lim_{a \to 0}f(x + a)$
 
 """
 st.markdown(markdown)
+st.text('')
+    
+with col2:
+    st.text('')
+
 
