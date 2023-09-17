@@ -2,9 +2,9 @@
 
 import streamlit as st
 
-st.title('Slide(確認中)')
+st.title('Slide(Marpで複数カラムレイアウトのスライド)')
 st.caption('mdファイルから作成したhtmlを埋め込んでいます')
-st.text('')
+st.text('Marpで複数カラムのレイアウトにするにはカスタムCSSを別途用意する必要あり')
 
 # Slide1.htmlを埋め込む
 with open('Slide1.html', 'r', encoding='utf-8') as html_file:
