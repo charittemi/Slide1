@@ -17,23 +17,22 @@ col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
     markdown = r"""
 
-### 数式表示
+    #### Markdownで数式表示
 
-#### 出力結果
+    $f(x) = x^2 + 1$
 
-$f(x) = x^2 + 1$
+    $y = (1 + x) - 4x \div 2$
 
-$y = (1 + x) - 4x \div 2$
+    $x^2$
 
-$x^2$
+    $\displaystyle\lim_{a \to 0}f(x + a)$
 
-$\displaystyle\lim_{a \to 0}f(x + a)$
-
-"""
-st.markdown(markdown)
+    """
+    st.markdown(markdown)
 st.text('')
     
 with col2:
+    
     st.text('')
 
 
