@@ -26,11 +26,8 @@ markdown = """
 
 $f(x) = x^2 + 1$
 
-$(1 + 2) \times 3 - 4 \div 2 = 7$
+$x_2$
 
-$x^2$
-
-$\displaystyle\lim_{a\to 0}f(x + a)$
 
 """
 st.markdown(markdown)
