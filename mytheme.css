@@ -84,15 +84,6 @@
      border-radius: 50%;
  }
  
- section.about-me img {
-     border-radius: 50%;
-     width: 400px;
-     position: absolute;
-     right: 80px;
-     top: 50%;
-     transform: translate(0, -50%);
- }
- 
  section header,
  section footer {
      color: rgba(#404040, 0.75);
