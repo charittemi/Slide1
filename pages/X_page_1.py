@@ -45,7 +45,7 @@ with col2:
 
     $\displaystyle\lim_{a \to 0}f(x + a)$
     ```
-    <!-- 文字列の先頭にrをつける```markdown = r"""```ことで、pythonのraw stringとして扱われる-->
+    <!-- 文字列の先頭にrをつける(```markdown = r```)ことで、pythonのraw stringとして扱われる-->
     
     """
     st.markdown(markdown)
