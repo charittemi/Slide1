@@ -20,7 +20,7 @@ with col1:
 with col2:
     st.text('')
 
-markdown = """
+markdown = r"""
 
 ### 数式表示 
 
