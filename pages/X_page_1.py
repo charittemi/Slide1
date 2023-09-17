@@ -8,7 +8,7 @@ from PIL import Image
 
 st.title('Page 1')
 st.caption('')
-st.subheader('作成')
+st.subheader('')
 
 st.text('')
 st.text('')
