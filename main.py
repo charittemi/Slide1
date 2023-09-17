@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-st.title('Slide')
+st.title('Slide(確認中)')
 st.caption('mdファイルから作成したhtmlを埋め込んでいます')
 st.text('')
 
