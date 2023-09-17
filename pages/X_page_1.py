@@ -35,7 +35,7 @@ with col2:
 
     markdown = r"""
 
-    #### Markdownで数式
+    ##### 実際の入力
     ```
     $f(x) = x^2 + 1$
 
@@ -45,6 +45,7 @@ with col2:
 
     $\displaystyle\lim_{a \to 0}f(x + a)$
     ```
+    <!-- 文字列の先頭にrをつける```markdown = r"""```ことで、pythonのraw stringとして扱われる-->
     
     """
     st.markdown(markdown)
