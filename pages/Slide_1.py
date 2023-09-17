@@ -1,7 +1,7 @@
 ﻿
 import streamlit as st
 
-st.title('Slide')
+st.title('Marpスライドの複数カラムレイアウト例')
 st.subheader('')
 st.text('')
 
