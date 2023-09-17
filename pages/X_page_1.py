@@ -16,7 +16,8 @@ with col1:
     markdown = r"""
 
     ##### 表示結果
-  
+<br>  
+
     $f(x) = x^2 + 1$
 
     $y = (1 + x) - 4x \div 2$
