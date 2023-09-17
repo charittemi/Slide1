@@ -7,7 +7,7 @@ from PIL import Image
 st.title('Markdownで数式を書く')
 st.caption('')
 
-st.write('文字列の先頭にrをつける(markdown = r)ことでpythonのraw stringとして扱われ、記号が正しく表示される')
+st.write('文字列の先頭にrをつける(markdown = r)ことでraw stringとして扱われ、記号が正しく表示される')
 
 st.text('')
 st.text('')
