@@ -3,7 +3,6 @@
 import streamlit as st
 
 st.title('Slide')
-st.caption('.mdファイルから.html形式でエクスポートしたスライド')
 st.subheader('Marpで複数カラムレイアウトのスライド作成')
 st.text('Marpで複数カラムのレイアウトにするにはカスタムCSSを別途用意する必要があります。')
 
