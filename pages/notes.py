@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Markdownファイルのパスを指定
-md_file_path = 'mdfiles\note.md'
+md_file_path = './mdfiles/note.md'
 
 # ファイル読み込み
 with open(md_file_path, 'r') as file:
